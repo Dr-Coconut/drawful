@@ -1,0 +1,185 @@
+.m-memories {
+  font-size: 2em;
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  color: white;
+}
+
+.m-title {
+  text-align: center;
+  color: white;
+}
+
+.calanderDrawing {
+  display: flex;
+  gap: 4%;
+  height: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.drawingContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  all: unset;
+  position: relative;
+  top: 50%;
+  color: white;
+}
+
+.m-drawing {
+  color: rgb(54, 54, 54);
+
+  /* background-color: rgb(54, 54, 54); */
+  background-color: white;
+  height: 600px;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.m-drawing img {
+  max-width: 1000px;
+  object-fit: contain;
+  max-height: 600px;
+  /* width: 60%; */
+  user-select: none;
+}
+.side-menu {
+}
+
+.twoButtons {
+  margin-left: 40px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.profile-message {
+  color: white;
+  font-size: 20px;
+}
+
+.downloadButton {
+  all: unset;
+}
+
+.cal {
+  margin-left: 5%;
+  margin-top: 70px;
+  font-size: 0.5em;
+}
+
+.highlight {
+  background-color: grey;
+  border-radius: 20%;
+}
+
+.highlight:hover {
+}
+
+.react-calendar {
+  font-family: "Helvetica", "Arial", sans-serif;
+  background-color: rgb(54, 54, 54);
+  border-radius: 5%;
+}
+
+.react-calendar__tile {
+  font-family: "Helvetica", "Arial", sans-serif;
+  /* color: white !important; */
+}
+
+.react-calendar__month-view__days__day {
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: white !important;
+}
+
+.react-calendar__month-view__days__day:hover {
+  background-color: black !important;
+  border-radius: 20%;
+}
+
+.react-calendar__tile--active {
+  background-color: black !important;
+  border-radius: 20%;
+}
+
+.react-calendar__navigation__label {
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: white !important;
+}
+
+.react-calendar__month-view__weekdays {
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: white !important;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 0.8em;
+  text-transform: none;
+  color: white;
+}
+
+.react-calendar__month-view__weekdays__weekday abbr {
+  text-decoration: underline !important;
+}
+
+/* .react-calendar__navigation:hover {
+  background-color: black;
+} */
+.react-calendar__navigation__arrow {
+  color: white !important;
+}
+
+.react-calendar__navigation__arrow:hover {
+  background-color: black !important;
+  border-radius: 10%;
+}
+
+.react-calendar__navigation__arrow:active {
+  /* color: white !important; */
+  background-color: black !important;
+}
+
+.react-calendar__navigation__arrow:enabled:focus {
+  background-color: rgb(54, 54, 54) !important;
+}
+
+.react-calendar__navigation button:enabled:focus {
+  /* background-color: #e6e6e6; */
+}
+
+.react-calendar__navigation__label:hover {
+  background-color: black !important;
+}
+
+.react-calendar__tile--now {
+  /* background-color: silver; */
+  color: red !important;
+}
+
+.react-calendar__tile--active {
+  background-color: rgb(54, 54, 54);
+}
+
+.m-errors {
+  color: red;
+  font-size: 1.5em;
+}
+
+.currentDate {
+  color: white;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  padding: 10px;
+}

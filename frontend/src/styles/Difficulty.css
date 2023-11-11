@@ -1,0 +1,32 @@
+.diff {
+  font-size: 30px;
+  color: white;
+  position: relative;
+  vertical-align: center;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  align-items: center;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.d-title {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 150px;
+  padding-bottom: 100%;
+}
+
+.DrawingLink{
+  background-color: white;
+  font-size: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+}

@@ -1,0 +1,219 @@
+.Profiles-container {
+    padding-left: 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.Friend-r-side {
+    padding: 10px;
+}
+
+.Profiles-r-side {
+    padding: 10px;
+}
+
+.Requests-title {
+    font-size: 48px;
+    margin-left: 145px;
+    margin-bottom: -40px;
+    margin-top: -40px;
+}
+
+/*----Friend list Start----*/
+
+.Friends-r-list {
+    background-color: rgb(45, 45, 45);
+    margin-top: 55px;
+    margin-right: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 530px;
+    overflow-y: scroll;
+}
+
+.User-r-preview {
+    background-color: rgb(253, 205, 18);
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 120px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
+    border: hidden;
+}
+
+.User-r-preview:hover {
+    background-color: rgb(48, 174, 193);
+}
+
+.User-r-preview::selection {
+    background-color: rgb(26, 109, 175);
+}
+
+.Friend-r-username {
+    font-size: 22px;
+    margin-left: 10px;
+    background-color: rgb(210, 171, 13);
+    border-radius: 30px;
+}
+
+.Friend-r-picture {
+    height: 100px;
+    width: 100px;
+}
+
+.Friend-r-status {
+    color: rgb(229, 28, 28);
+    font-size: 25px;
+    margin-left: -15px;
+    margin-top: 84px;
+}
+
+.Mutual-r-friends {
+    font-size: 20px;
+}
+
+/*----Friend list end----*/
+
+
+
+
+
+/*----Profile detailed view start----*/
+
+.Profile-details {
+    background-color: rgb(45, 45, 45);
+    /*128,128,128*/
+    height: 615px;
+    width: 550px;
+    border-radius: 30px;
+    padding: 22px;
+    margin-top: -20px;
+}
+
+.Profile-picture {
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgb(253, 205, 18);
+}
+
+.Profile-username {
+    font-size: 35px;
+}
+
+.Profile-bio-container {
+    font-size: 17px;
+    background-color: rgb(253, 205, 18);
+    width: 250px;
+    border-radius: 30px;
+    height: 200px;
+    padding: 10px;
+    overflow: hidden;
+    /*overflow-y: scroll;*/
+}
+
+.Profile-bio {
+    font-family: "insta";
+    color: black;
+}
+
+.Profile-stat-bar {
+    background-color: rgb(253, 205, 18);
+    font-size: 16px;
+    font-family: "insta";
+    outline: solid;
+    color: black;
+    outline-color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    width: 200px;
+    padding: 2px;
+}
+
+.Profile-fav-draw {
+    height: 150px;
+    width: 150px;
+    border: 2px solid rgb(253, 205, 18);
+}
+
+.Profile-r-reject {
+    font-size: 20px;
+    width: 80px;
+    text-align: center;
+    margin-left: 60px;
+    border-color: rgb(236, 101, 172);
+    color: rgb(236, 101, 172);
+}
+
+.Profile-r-reject:hover {
+    background-color: rgb(236, 101, 172);
+    border-color: white;
+    color: white;
+}
+
+.Profile-r-accept {
+    font-size: 20px;
+    width: 80px;
+    text-align: center;
+    margin-left: 40px;
+    border-color: rgb(48, 174, 193);
+    color: rgb(48, 174, 193);
+}
+
+.Profile-r-accept:hover {
+    background-color: rgb(48, 174, 193);
+    border-color: white;
+    color: white;
+}
+
+.Profile-badges-container {
+    color: black;
+    background-color: white;
+    height: 110px;
+    overflow-y: scroll;
+    padding: 4px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.Profile-section-header1 {
+    font-size: 30px;
+    text-decoration: underline;
+    margin-right: 110px;
+}
+
+.Profile-section-header2 {
+    font-size: 30px;
+    text-decoration: underline;
+    margin-right: 110px;
+    margin-top: -10px;
+    margin-bottom: -7px;
+}
+
+.Profile-badge-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    margin-bottom: 6px;
+}
+
+/*----Profile detailed view end----*/
+
+
+
+
+
+
+
+/*Here add the stuff which changes when the screen is made smaller*/
+@media(max-width: 800px) {
+    .Profiles-container {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,199 @@
+.input {
+    font-size: 22px;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+.account-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.account-container img {
+    width: 150px;
+    height: 100px;
+    background-color: white;
+}
+
+
+.input input,
+.input textarea {
+    background-color: rgb(57, 59, 61);
+    width: 340px;
+    color: white;
+    border: 1px solid #838383;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+
+.input textarea {
+    height: 170px;
+}
+
+
+
+.badges-container {
+    width: 575px;
+    height: 250px;
+    background-color: rgb(202, 79, 79);
+    color: rgb(255, 255, 255);
+    border: 1px solid #838383;
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 25px;
+    font-size: 22px;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    overflow-x: hidden;
+}
+
+
+
+.badges-container::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+.badges-container::-webkit-scrollbar-thumb {
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.badges-container::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+.badges-header {
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: white
+}
+
+.stats-header {
+    margin-top: 10px;
+    padding-left: 30px;
+    font-size: 30px;
+    color: white
+}
+
+.stats {
+    margin-left: 15px;
+    width: 230px;
+    height: 200px;
+    background-color: rgb(255, 213, 74);
+    color: rgb(0, 0, 0);
+    border: 1px solid #838383;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.stats div {
+    font-size: 20px;
+    padding-left: 5px;
+    padding-bottom: 12px;
+    padding-top: 2px;
+}
+
+.sub {
+    color: grey;
+    font-size: 24px;
+    margin-top: -15px;
+    margin-left: 8px
+}
+
+.labels {
+    font-size: 20px;
+    padding-top: 35px;
+    margin-bottom: 18px;
+}
+
+.account-header {
+    font-size: 44px;
+    margin-top: 5px
+}
+
+.security-header {
+    font-size: 44px;
+}
+
+.save {
+    background-color: rgb(78, 90, 255);
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 8px;
+    margin-left: 25px;
+    margin-top: 60px;
+}
+
+.delete {
+    background-color: rgb(255, 78, 78);
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 6px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.delete:hover {
+    background-color: rgb(255, 140, 140);
+}
+
+.delete:active {
+    background-color: rgb(192, 29, 29);
+}
+
+.saveP {
+    background-color: rgb(78, 90, 255);
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 6px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+.saveP:hover {
+    background-color: rgb(116, 181, 255);
+}
+
+.saveP:active {
+    background-color: rgb(49, 87, 255);
+}
+
+.lastLogin {
+    font-size: 20px;
+}
+
+.error {
+    color: rgb(255, 255, 0);
+}
+
+.save:hover {
+    background-color: rgb(116, 181, 255);
+}
+
+.save:active {
+    background-color: rgb(49, 87, 255);
+}
+
+.security-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.errormsg {
+    font-size: 20px
+}

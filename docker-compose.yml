@@ -1,0 +1,36 @@
+services:
+  db:
+    container_name: team40-22-db-1
+    image: postgres
+    volumes:
+      - /var/lib/postgresql/data/
+    environment:
+      - POSTGRES_DB=drawful
+      - POSTGRES_USER=drawful
+      - POSTGRES_PASSWORD=drawful
+      - POSTGRES_HOST=localhost
+  web:
+    container_name: team40-22-web-1
+    build: /home/gitlab-runner/builds/ZTttgQvU/0/team-projects-2022-23/team40-22/
+    command: python3 ./drawful/manage.py runserver 127.0.0.1:8000
+    volumes:
+      - /home/gitlab-runner/builds/ZTttgQvU/0/team-projects-2022-23/team40-22/drawful
+    ports:
+      - "8080:8080"
+    environment:
+      - POSTGRES_NAME=drawful
+      - POSTGRES_USER=drawful
+      - POSTGRES_PASSWORD=drawful
+      - POSTGRES_HOST=db
+    depends_on:
+      - db
+  #app:
+    #container_name: docker_react_app
+    #image: docker-react-image
+    #volumes:
+      #- ".:/app"
+      #- "/app/node_modules"
+    #ports:
+      #- "3000:3000"
+    #depends_on:
+      #- web

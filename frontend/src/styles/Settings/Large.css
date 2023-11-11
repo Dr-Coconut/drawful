@@ -1,0 +1,221 @@
+body.large div {
+    font-size: 30px;
+}
+
+body.large input {
+    font-size: 28px;
+}
+
+body.large .input {
+    font-size: 28px;
+}
+
+body.large button {
+    font-size: 25px;
+}
+
+
+body.large .UserName {
+    font-size: 30px;
+}
+
+body.large .StarBarAvg {
+    font-size: 30px;
+}
+
+body.large .bottom-bar {
+    width: 90%;
+    left: 5%;
+
+}
+
+body.large .PromptName {
+    font-size: 30px;
+}
+
+body.large .RateText {
+    font-size: 30px;
+}
+
+body.large .CommentUsername {
+    font-size: 24px;
+}
+
+body.large .CommentText {
+    font-size: 28px;
+}
+
+body.large .SubmitButton {
+    font-size: 25px;
+    width: 200px;
+}
+
+body.large .m-drawing {
+    width: 950px;
+
+}
+
+body.large .m-drawing img {
+    max-width: 950px;
+}
+
+
+body.large .calanderDrawing div {
+    font-size: 18px;
+}
+
+body.large .m-title {
+    font-size: 40px;
+}
+
+body.large .currentDate {
+    font-size: 30px !important;
+}
+
+body.large .stats {
+    width: 280px;
+    height: 220px;
+}
+
+body.large .stats div {
+    font-size: 25px;
+}
+
+body.large .account-header {
+    font-size: 50px;
+}
+
+body.large .textarea {
+    margin-top: 20px;
+}
+
+body.large .email {
+    margin-top: 10px;
+}
+
+body.large .save {
+    font-size: 35px;
+}
+
+body.large .stats-header {
+    font-size: 35px;
+}
+
+body.large .badges-header {
+    font-size: 35px;
+}
+
+body.large .account-container img {
+    margin-top: 10px;
+}
+
+body.large .accessibility-header {
+    font-size: 50px;
+}
+
+body.large .searchBar input {
+    font-size: 30px;
+    width: 200px;
+}
+
+body.large .Profile-stat-bar {
+    width: 250px;
+    font-size: 25px;
+}
+
+body.large .Profile-details {
+    height: 800px;
+}
+
+body.large .Friends-list {
+    height: 680px;
+}
+
+body.large .Friends-m-list {
+    height: 680px;
+}
+
+body.large .Friends-r-list {
+    height: 680px;
+}
+
+body.large .Profile-username {
+    font-size: 40px;
+}
+
+body.large .Profile-section-header2 {
+    font-size: 35px;
+}
+
+body.large .Friends-title {
+    font-size: 60px;
+}
+
+body.large .Requests-title {
+    font-size: 60px;
+}
+
+body.large .F-search-bar {
+    width: 350px;
+}
+
+body.large .Profile-unfriend-button {
+    width: 140px
+}
+
+body.large .Profile-view-memories {
+    width: 140px
+}
+
+body.large .Friend-username {
+    font-size: 28px;
+}
+
+body.large .Friend-m-username {
+    font-size: 28px;
+}
+
+body.large .Friend-r-username {
+    font-size: 28px;
+}
+
+body.large .Mutual-title {
+    font-size: 60px;
+}
+
+body.large .Profile-unfriend-mf-button {
+    width: 120px
+}
+
+body.large .Profile-befriend-button {
+    width: 120px
+}
+
+body.large .Profile-r-reject {
+    width: 100px
+}
+
+body.large .Profile-r-accept {
+    width: 100px
+}
+
+body.large .userName {
+    font-size: 25px;
+}
+
+body.large .saveP {
+    font-size: 30px;
+}
+
+
+body.large .security-header {
+    font-size: 50px;
+}
+
+body.large .delete {
+    font-size: 30px;
+}
+
+body.large .popup button {
+    width: 100px;
+}

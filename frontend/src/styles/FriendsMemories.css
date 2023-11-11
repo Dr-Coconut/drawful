@@ -1,0 +1,53 @@
+.TestDiv {
+    color: white;
+}
+
+select {
+    margin-left: 5px;
+}
+
+.closeButton {
+    float: right;
+}
+
+.ReportHeader {
+    text-align: center;
+    font-size: 30px;
+}
+
+.ReportHeader > h1 {
+    color: red;
+    font-size: 100px;
+}
+
+.ReportForm {
+    text-align: center;
+    font-size: 25px;
+}
+
+.ReportForm > button {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.DropdownDiv {
+    color: white;
+    float: right;
+    padding-right: 2%;
+    font-size: 20px;
+}
+
+.load {
+    color: red;
+}
+
+.NoDrawings {
+    color: red;
+    text-align: center;
+    font-size: 20px;
+}
+
+.rootDiv {
+    margin: auto;
+    width: 23%;
+}

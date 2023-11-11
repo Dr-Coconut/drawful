@@ -1,0 +1,358 @@
+body.light-mode .App {
+    background-color: rgb(201, 230, 255)
+}
+
+body.light-mode .Main {
+    background-color: rgb(201, 230, 255) !important
+}
+
+body.light-mode {
+    background-color: rgb(201, 230, 255) !important;
+}
+
+
+body.light-mode h1 {
+    color: rgb(0, 0, 0);
+}
+
+body.light-mode h2 {
+    color: rgb(0, 0, 0);
+}
+
+body.light-mode div {
+    color: black;
+}
+
+body.light-mode .CommentsBox {
+    background-color: rgb(255, 204, 174);
+    border: 1px solid black;
+}
+
+body.light-mode .userDrawing {
+
+    border: 1px solid black;
+}
+
+body.light-mode .UserProfile {
+    background-color: rgb(242, 219, 255);
+    border: 1px solid black;
+}
+
+body.light-mode .UserElement img {
+    border: 1px solid black;
+}
+
+body.light-mode .menu {
+    background-color: rgb(245, 245, 245);
+
+}
+
+body.light-mode .menu button {
+    background-color: rgb(245, 245, 245);
+    color: black;
+}
+
+body.light-mode .menu-header {
+    border-color: #000000;
+    color: black
+}
+
+
+body.light-mode .input input {
+    background-color: white;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+
+}
+
+body.light-mode .Friends-list {
+    background-color: rgb(240, 211, 255);
+    border: 1px solid black;
+}
+
+body.light-mode .Friends-list {
+    background-color: rgb(240, 211, 255);
+    border: 1px solid black;
+}
+
+body.light-mode .Friends-m-list {
+    background-color: rgb(240, 211, 255);
+    border: 1px solid black;
+}
+
+body.light-mode .User-m-preview {
+
+    border: 1px solid black;
+    background-color: rgb(255, 215, 103);
+}
+
+body.light-mode .User-preview {
+
+    border: 1px solid black;
+    background-color: rgb(255, 215, 103);
+}
+
+body.light-mode .friendSidebar {
+    background-color: rgb(245, 245, 245);
+}
+
+body.light-mode .friendSidebar button {
+    background-color: rgb(245, 245, 245);
+    color: black;
+}
+
+body.light-mode .friendSidebar-header {
+    border-color: #000000;
+    color: black
+}
+
+body.light-mode .Profile-details {
+    background-color: rgb(240, 211, 255);
+    border: 1px solid black;
+
+}
+
+body.light-mode .Profile-badges-container {
+    border: 1px solid black;
+}
+
+body.light-mode .Profile-bio-container {
+    border: 1px solid black;
+    background-color: rgb(255, 215, 103);
+}
+
+body.light-mode .Profile-stat-bar {
+    background-color: rgb(255, 215, 103);
+}
+
+body.light-mode .Profile-picture {
+    border: 1px solid black;
+}
+
+body.light-mode .Profile-fav-draw {
+    border: 1px solid black;
+}
+
+body.light-mode .Background {
+    background-color: rgb(255, 255, 255);
+}
+
+body.light-mode .disclaimer {
+    background-color: rgb(214, 214, 214);
+    border: 1px solid black
+}
+
+body.light-mode .input textarea {
+    background-color: white;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+}
+
+body.light-mode .search-bar input {
+
+    border: 1px solid black;
+}
+
+body.light-mode .menu button:not([aria-current="true"]):hover {
+    background-color: rgb(172, 172, 172);
+    color: #000000;
+}
+
+body.light-mode .menu button:not([aria-current="true"]):focus {
+    background-color: rgb(221, 221, 221);
+    color: #000000;
+}
+
+body.light-mode .account-container img {
+    border: 1px solid black;
+}
+
+body.light-mode .stats {
+    background-color: rgb(240, 211, 255);
+    border: 1px solid black;
+}
+
+body.light-mode .badges-container {
+    background-color: rgb(255, 159, 159);
+    border: 1px solid black;
+}
+
+body.light-mode .sub {
+    color: rgb(97, 97, 97);
+}
+
+
+body.light-mode .m-drawing {
+    border: 1px solid black;
+    background-color: white;
+}
+
+body.light-mode .downloadButton button {
+    background-color: rgb(255, 227, 176);
+    border: 1px solid black;
+    color: black
+}
+
+body.light-mode .setProfileButton button {
+    background-color: rgb(255, 227, 176);
+    border: 1px solid black;
+    color: black
+}
+
+body.light-mode .SubmitButton {
+    background-color: rgb(255, 227, 176);
+    border: 1px solid black;
+    color: black
+}
+
+body.light-mode .StarBar button {
+    background-color: rgb(70, 70, 70);
+}
+
+body.light-mode .CommentBar {
+    border: 1px solid black;
+}
+
+body.light-mode .star-rating button {
+    background-color: rgb(136, 129, 224);
+}
+
+body.light-mode .CommentSection {
+    border: 1px solid black;
+    background-color: rgb(255, 215, 103);
+}
+
+body.light-mode .SubCom button {
+    background-color: rgb(255, 216, 216);
+    border: 1px solid black;
+    color: black
+}
+
+body.light-mode .react-calendar {
+    background-color: rgb(184, 121, 255);
+    border: 1px solid black;
+
+}
+
+body.light-mode .Drawings {
+    background-color: rgb(255, 174, 174);
+    border: 1px solid black;
+}
+
+body.light-mode .privacy {
+    background-color: rgb(255, 202, 158);
+    border: 1px solid black;
+}
+
+body.light-mode .headingBar {
+    background-color: rgb(201, 230, 255)
+}
+
+body.light-mode .filters {
+    background-color: rgb(245, 245, 245);
+}
+
+body.light-mode .seperator,
+.seperator2,
+.seperator3 {
+    background-color: rgb(0, 0, 0)
+}
+
+body.light-mode .filtersBar {
+    background-color: rgb(245, 245, 245);
+}
+
+body.light-mode .Friends-r-list {
+    background-color: rgb(240, 211, 255);
+    border: 1px solid black;
+}
+
+body.light-mode .User-r-preview {
+    border: 1px solid black;
+    background-color: rgb(255, 215, 103);
+}
+
+body.light-mode .arrow {
+    border-radius: 100px;
+    background-color: #000000;
+}
+
+body.light-mode .DrawingLink {
+    border: 1px solid black;
+    background-color: rgb(255, 221, 221);
+}
+
+body.light-mode .login-details {
+    border: 1px solid black;
+
+}
+
+body.light-mode .popup button {
+    background-color: rgb(255, 137, 137);
+    border: 1px solid black;
+}
+
+body.light-mode .Friend-picture {
+    border: 1px solid black;
+}
+
+body.light-mode .Friend-m-picture {
+    border: 1px solid black;
+}
+
+body.light-mode .Friend-r-picture {
+    border: 1px solid black;
+}
+
+body.light-mode .sign-out {
+    background-color: rgb(160, 185, 255);
+    border: 1px solid black;
+    color: #000000
+}
+
+body.light-mode .underline {
+    border-color: #000000;
+}
+
+body.light-mode .Friend-username {
+    background-color: rgb(236, 197, 88);
+}
+
+body.light-mode .Friend-m-username {
+    background-color: rgb(236, 197, 88);
+}
+
+body.light-mode .Friend-r-username {
+    background-color: rgb(236, 197, 88);
+}
+
+body.light-mode .Profile-unfriend-button {
+    color: rgb(0, 0, 0)
+}
+
+
+body.light-mode .save {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 203, 59);
+}
+
+body.light-mode .save:hover {
+    background-color: rgb(255, 232, 127);
+}
+
+body.light-mode .save:active {
+    background-color: rgb(255, 180, 19);
+}
+
+body.light-mode .saveP {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 203, 59);
+}
+
+body.light-mode .saveP:hover {
+    background-color: rgb(255, 232, 127);
+}
+
+body.light-mode .saveP:active {
+    background-color: rgb(255, 180, 19);
+}

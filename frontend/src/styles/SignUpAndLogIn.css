@@ -1,0 +1,114 @@
+.accounts-page {
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.account-details {
+    width: 500px;
+    margin-top: 30px;
+    font-size: 30px;
+    color: black;
+    display: grid;
+    background-color: rgb(253, 205, 18);
+    padding: 10px;
+    border-radius: 7px;
+    align-items: center;
+
+
+}
+
+.title-text {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    border-bottom-color: black;
+    border-width: 2px;
+}
+
+.details-segment {
+    background-color: rgb(210, 171, 13);
+    padding: 6px;
+    margin-bottom: 8px;
+    border-radius: 9px;
+    font-family: "insta";
+}
+
+.info-label {
+    margin-bottom: -20px;
+    margin-left: 4px;
+    font-family: "insta";
+    color: black;
+}
+
+.infoP-label {
+    margin-bottom: 5px;
+    margin-left: 4px;
+    font-family: "insta";
+    color: black;
+}
+
+.info-fullname-box {
+    margin-top: 15px;
+    font-family: "insta";
+    font-size: 20px;
+    width: 400px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.info-username-box {
+    margin-top: 15px;
+    font-family: "insta";
+    font-size: 20px;
+    width: 400px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.info-email-box {
+    margin-top: 15px;
+    font-family: "insta";
+    font-size: 20px;
+    width: 400px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.info-box {
+    margin-top: 15px;
+    font-family: "insta";
+    font-size: 20px;
+    width: 400px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+
+.error-msg{
+    margin-bottom: 5px;
+    font-family: "insta";
+    color: red;
+    font-size: 15px;
+}
+
+.login-signup-switch {
+    font-size: 25px;
+}
+
+.submit-details {
+    margin-top: 40px;
+    width: 100px;
+}
+
+.infoP-box {
+    margin-top: -13px;
+    font-family: "insta";
+    font-size: 20px;
+    width: 400px;
+    border-radius: 5px;
+    border: 0px;
+}

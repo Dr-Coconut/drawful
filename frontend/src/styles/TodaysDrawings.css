@@ -1,0 +1,307 @@
+@font-face {
+  font-family: "sometimes";
+  src: url(../Fonts/Sometimes.otf);
+  font-family: "Handmade";
+  src: url(../Fonts/SimpleHandmade.otf);
+}
+
+.Title {
+  font-family: "insta";
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 1%;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+/* .p-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-top: 2px solid rgb(57, 59, 61);
+  border-bottom: 2px solid rgb(57, 59, 61);
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+} */
+
+.PromptName {
+  font-family: "insta";
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  /* margin-left: 40%;
+    margin-bottom: 0%; */
+  /* text-align: center; */
+}
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  width: 60%;
+  left: 20%;
+  position: relative;
+}
+.timeDate {
+  color: white;
+}
+.bottom-bar {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  width: 60%;
+  left: 20%;
+  position: relative;
+  color: white;
+  align-items: center;
+}
+
+/*I've coloured the region grey so you can see the space.*/
+.post {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+/*Each User profile is composed of user elements*/
+.UserElement {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.userDrawing {
+  display: flex;
+  justify-content: center;
+  object-fit: contain;
+}
+
+.userDrawing img {
+  max-width: 60%;
+  object-fit: contain;
+  height: 700px;
+  background-color: white;
+}
+
+.UserName {
+  font-family: "insta";
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  /* border-bottom: 2px solid rgb(255, 255, 255); */
+  /* text-decoration: underline; */
+  text-decoration-thickness: 2px;
+}
+
+.Stats {
+  font-family: "insta";
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  display: contents;
+}
+
+/*Star bar segment START ------*/
+.star-rating button {
+  /* background-color: transparent; */
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+}
+.on {
+  color: rgb(253, 205, 18);
+  fill: yellow;
+  background-color: rgb(45, 45, 45);
+}
+.off {
+  /* color: rgb(253, 205, 18); */
+  background-color: rgb(45, 45, 45);
+}
+.on:hover {
+  background-color: rgb(253, 205, 18);
+  color: white;
+}
+
+.StarBar {
+  color: white;
+  font-size: 30px;
+  margin-top: 20px;
+  display: flow-root;
+}
+
+.Stars {
+  color: rgb(253, 205, 18);
+  background-color: rgb(45, 45, 45);
+  border-style: hidden;
+  border-radius: 0%;
+}
+
+.Stars:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: rgb(45, 45, 45);
+  color: rgb(253, 205, 18);
+}
+
+.Star1 {
+  color: rgb(253, 205, 18);
+  background-color: rgb(45, 45, 45);
+  border-style: hidden;
+  border-radius: 0%;
+  border-top-left-radius: 100%;
+  border-bottom-left-radius: 100%;
+}
+
+.Star5 {
+  color: rgb(253, 205, 18);
+  background-color: rgb(45, 45, 45);
+  border-style: hidden;
+  border-radius: 0%;
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+}
+
+.Stars:hover {
+  background-color: rgb(253, 205, 18);
+  color: white;
+}
+
+.Ratings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.RateText {
+  /*background-color: rgb(45,45,45);*/
+  /*
+  flex-direction: row;
+  border-color: white;
+
+  text-decoration: underline;
+  font-size: 30px; */
+  /*border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-style: hidden;*/
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  text-align: center;
+}
+
+.StarBar {
+  font-size: 30px;
+}
+
+.StarBarAvg {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.StarRating {
+  color: rgb(253, 205, 18);
+  border-style: hidden;
+  border-radius: 0%;
+  background-color: grey;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.SubmitButton {
+  background-color: rgb(45, 45, 45);
+  color: rgb(253, 205, 18);
+  /* border: hidden;
+  margin: 0;
+  position: relative;
+  top: 15%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100px; */
+}
+
+.SubmitButton:hover {
+  background-color: rgb(253, 205, 18);
+  color: white;
+}
+
+.SubmitButton:focus {
+  background-color: rgb(253, 205, 18);
+  box-shadow: none;
+}
+
+/*Star bar segment END ------*/
+
+/*Comments box START ------*/
+
+.CommentsBox {
+  color: white;
+  background-color: rgb(45, 45, 45);
+  /* font-size: 30px;
+  height: 200px; */
+  height: 700px;
+}
+
+.CommentHeading {
+  text-decoration: underline;
+  padding-left: 20px;
+}
+
+.Comment {
+  /*color: blueviolet;*/
+  font-size: 24px;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-left: 10px;
+}
+
+.CommentText {
+  color: rgb(255, 255, 255);
+  font-family: "insta";
+  font-size: 20px;
+}
+
+.CommentUsername {
+  color: rgb(253, 205, 18);
+  font-family: "insta";
+  font-size: 20px;
+}
+
+/*Comments box END ------*/
+
+@media (max-width: 800px) {
+  .UserProfile {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .RateText {
+    justify-content: center;
+  }
+
+  .StarBar {
+    display: flex;
+    justify-content: center;
+
+    margin: 0;
+    margin-top: 3%;
+  }
+
+  .SubmitButton {
+    top: 20px;
+  }
+
+  .Title {
+    font-size: 3em;
+  }
+
+  .Comment {
+    grid-template-columns: auto;
+  }
+}

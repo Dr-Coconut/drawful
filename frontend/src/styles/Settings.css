@@ -1,0 +1,97 @@
+.settings-container {
+    margin-top: 4.5vh;
+    margin-left: 270px;
+}
+
+.menu {
+    position: fixed;
+    top: 90px;
+    left: 0;
+    right: 0;
+    width: 220px;
+    background-color: #000000;
+    color: white;
+    bottom: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-header {
+    text-align: center;
+    width: 85%;
+    border-bottom: 1px solid white;
+    font-size: 32px;
+    padding: 15px
+}
+
+.buttonstyle {
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #000000;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.buttonstyleMore {
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #000000;
+    border: none;
+    font-size: 20px;
+}
+
+.popup button {
+    background-color: rgb(252, 67, 67);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 18px;
+    position: relative;
+    left: 7px;
+    width: 80px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.menu button:not([aria-current="true"]):hover {
+    background-color: var(--white);
+    color: #000000;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.menu button:not([aria-current="true"]):focus {
+    background-color: rgb(141, 141, 141);
+    color: #000000;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.section {
+    visibility: hidden;
+    color: white;
+    opacity: 0;
+}
+
+.section.active {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+.search-bar input {
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 22px;
+    width: 160px;
+    padding-left: 15px
+}
+
+.search-bar input:focus::-webkit-input-placeholder {
+    transform: translate(-40px, -30px);
+    transition: all 0.4s ease-in-out;
+}

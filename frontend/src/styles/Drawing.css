@@ -1,0 +1,104 @@
+/*Added the font*/
+@font-face {
+    font-family: "Today's pictures";
+    src: url(../Fonts/Sometimes.otf);
+}
+
+div {
+    font-family: 'insta';
+}
+
+
+/*This represents the drawing toolbar*/
+.drawing_toolbar {
+    position: absolute;
+    top: 13.5vh;
+    left: 1.3vw;
+    bottom: 2.5vh;
+    width: 14.9vw;
+    background-color: rgb(157, 174, 219);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/*This represents the bar containing the prompt*/
+.prompt_bar {
+    position: relative;
+    top: 1.6vh;
+    left: 17.5vw;
+    height: 7vh;
+    width: 81.1vw;
+    background-color: rgb(181, 228, 212);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/*This represents the prompt*/
+.prompt {
+    background: rgb(255, 255, 255);
+    width: 37%;
+    height: 4.5vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 3vh;
+
+
+}
+
+/*This represents the drawing canvas*/
+.canvas {
+    position: absolute;
+    top: 22vh;
+    left: 17.5vw;
+    bottom: 2.5vh;
+    width: 81.1vw;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/*This represents a temporary drawing tool*/
+.tool1 {
+    position: relative;
+    top: 2vh;
+    left: 1.3vw;
+    border-radius: 7px;
+    font-size: 2.3vh;
+}
+
+/*This represents the remaining time*/
+.time {
+    position: absolute;
+    top: 68vh;
+    left: 84%;
+    width: 22vh;
+    text-align: center;
+    font-size: 2.5vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(219, 219, 219);
+}
+
+.controlpanel {
+    margin-top: 7%;
+    margin-left: 7%;
+}
+
+.Background {
+    background-color: black;
+}
+
+.disclaimer {
+    width: 1400px;
+    margin-left: 10px;
+    margin-top: 600px;
+    color: white;
+    background-color: rgb(45, 45, 45);
+}
